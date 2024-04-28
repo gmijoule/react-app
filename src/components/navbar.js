@@ -5,13 +5,13 @@ const Navbar=()=>{
     return (    
                 <div>
                     <div>
-                        <Link to="/">Home</Link>
+                        <Link to="/react-app">Home</Link>
                     </div>
                     <div>
-                        <Link to="/classement">Classement</Link>
+                        <Link to="/react-app/classement">Classement</Link>
                 </div>
                     <div>
-                        <Link to="/about">About</Link>
+                        <Link to="/react-app/about">About</Link>
                     </div>
                 </div>
     )

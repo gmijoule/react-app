@@ -16,9 +16,9 @@ function App() {
         <Router>
             <Navbar/>
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/classement" element={<Classement />} />
+                <Route path="/react-app" element={<Home />} />
+                <Route path="/react-app/about" element={<About />} />
+                <Route path="/react-app/classement" element={<Classement />} />
                 {/* <Route
                     path="/contact"
                     element={<Contact />}
