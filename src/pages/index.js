@@ -18,7 +18,7 @@ const Home = () => {
             <p className="Author">Author : G. Mijoule</p>
             <a
                 className="App-link"
-                href="/classement.html"
+                href="/react-app/classement.html"
                 target="_blank"
                 rel="noopener noreferrer"
             >
