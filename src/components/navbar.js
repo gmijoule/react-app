@@ -1,19 +1,21 @@
+import './../App.css';
+
 import React from 'react';
 import {Link} from 'react-router-dom';
 
 const Navbar=()=>{
     return (    
-                <div>
-                    <div>
+                <ul className="Navbar">
+                    <li>
                         <Link to="/react-app">Home</Link>
-                    </div>
-                    <div>
+                    </li>
+                    <li>
                         <Link to="/react-app/classement">Classement</Link>
-                </div>
-                    <div>
+                    </li>
+                    <li>
                         <Link to="/react-app/about">About</Link>
-                    </div>
-                </div>
+                    </li>
+                </ul>
     )
 
 }
